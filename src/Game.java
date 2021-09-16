@@ -42,7 +42,8 @@ public class Game {
 
         computersInput = random.nextInt(3);
 
-
+        System.out.println("User chose " + usersInput);
+        System.out.println("Computer chose " + computersInput);
 
         if (usersInput == computersInput) {
             System.out.println("its a tie!!");
@@ -83,8 +84,7 @@ public class Game {
 
 
 
-        System.out.println("User chose " + usersInput);
-        System.out.println("Computer chose " + user2input);
+
 
         if (usersInput == user2input) {
             System.out.println("its a tie!!");
