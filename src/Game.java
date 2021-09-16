@@ -11,7 +11,7 @@ public class Game {
         int pressANumberToPlay = scanner.nextInt();
 
 
-        int number2 = 2;
+
         if (pressANumberToPlay == 1) {
          singlePlayer();
         } else {
@@ -42,8 +42,7 @@ public class Game {
 
         computersInput = random.nextInt(3);
 
-        System.out.println("User chose " + usersInput);
-        System.out.println("Computer chose " + computersInput);
+
 
         if (usersInput == computersInput) {
             System.out.println("its a tie!!");
